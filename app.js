@@ -12,5 +12,5 @@ box.addEventListener('touchstart', function() {
     log.textContent = Math.sqrt(acc_g.x * acc_g.x);
     au.set({freq:fr});
   });
-  au = T("sin", {freq:880, mul:0.5}).play();
+  au = T("sin", {freq:880, mul:1.5}).play();
 });
